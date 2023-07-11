@@ -1,0 +1,112 @@
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: rgb(1, 0, 0, 0.4);
+    width: 900px;
+    height: 650px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+ 
+/* HEADER */
+
+header{
+    text-align: center;
+}
+
+.logo{
+    width: 180px;
+    margin-top: 60px;
+    
+
+}
+
+.text-under-logo{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(6, 221, 1);
+}
+
+
+/* NAVIGAZIONE */
+
+.nav-container{
+    text-align: center;
+    background-color:  rgb(100, 218, 65);
+    width: 750px;
+    margin: auto;
+    padding: 8px;
+   
+}
+
+/* MAIN MENU */
+
+.container-mono{
+    
+width: 766px;
+margin: auto;
+
+}
+
+.row-left{
+    
+    color: white;
+    line-height: 19px;
+    margin-top: 9px;
+}
+
+.row-left > h2 { 
+   
+    display: inline-block;
+    font-size: 22.5px;
+    margin-bottom: 1px
+}
+
+    
+.row-left > h3 {
+    
+    font-size: small;
+    font-weight: 100;
+    margin-bottom: 0.5px; 
+    margin-top: 2px;
+}
+   
+/* contenitore carica residua  */
+
+.rectangle {
+    
+    height: 20px;
+    border-radius: 2px;
+    
+}
+
+/* colorazione barre della carica residua */
+
+.rectangle.yellow{
+    background-color:  rgb(245, 180, 83);
+    width: 250px;
+    
+
+}
+
+.rectangle.green{
+    background-color:  rgb(29, 195, 30);
+    width: 500px;
+    
+
+}
+
+.rectangle.red{
+    background-color:  rgb(190, 65, 65);
+    width: 120px;
+    
+
+}
